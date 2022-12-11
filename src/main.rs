@@ -3,8 +3,8 @@
 
 mod avr;
 use avr::{
-    pin::Port,
-    timer::Timer,
+	pin::Port,
+    	timer::Timer,
 };
 
 /*
@@ -27,6 +27,6 @@ pub extern "C" fn main() -> ! {
 
 #[panic_handler]
 fn panic(_info: &core::panic::PanicInfo<'_>) -> ! {
-  // Just loop forever when panic happens
+	// Just loop forever when panic happens
 	loop {}
 }
