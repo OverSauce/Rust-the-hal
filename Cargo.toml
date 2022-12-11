@@ -2,6 +2,8 @@
 name = "hall"
 version = "0.1.0"
 edition = "2021"
+authors = ["Erol Tunahan Gedik"]
+repository = "https://github.com/OverSauce/Rust-the-hal"
 
 [profile.dev]
 panic = "abort"
