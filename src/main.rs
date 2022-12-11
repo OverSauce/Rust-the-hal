@@ -24,9 +24,3 @@ pub extern "C" fn main() -> ! {
 		let _ = portb.toggle(5); // Consume the return value
 	});
 }
-
-#[panic_handler]
-fn panic(_info: &core::panic::PanicInfo<'_>) -> ! {
-	// Just loop forever when panic happens
-	loop {}
-}
