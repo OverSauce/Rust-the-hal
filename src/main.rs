@@ -9,7 +9,7 @@ use avr::{
 
 /*
 	This function will be exported as "main" 
-	gcc-avr will look for this name as the entry point
+	avr-gcc will look for this name as the entry point
 	This is why we prevent it's name from being mangled
 */
 #[no_mangle]    
